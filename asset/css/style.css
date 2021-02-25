@@ -1,20 +1,12 @@
-* {
-    background-color: black;
-
+body {
+    background-color: darkslateblue;
 }
 
-.search {
-    (
-
-    )
-}
-.block {
-
-}
-
-.div {
-    background: black;
+.login {
     color: blue;
 }
-.div__ {
+.pass {
+}
+.gender {
+
 }
