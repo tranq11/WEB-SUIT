@@ -25,12 +25,12 @@ h1 {
     color: #445161;
 }
 .c {
-    line-height: 14px;
+
     font-weight: 700;
     color: #333333;
 }
 .d {
-    line-height: 14px;
+
     color: #ff0000;
     
 }
@@ -41,18 +41,17 @@ h1 {
     margin-bottom: 19px;
 }
 .f {
-    line-height: 14px;
+
     text-transform: uppercase;
     color: #333333;
 }
 .h {
-    line-height: 14px;
-    font-size: 14px;
+
     font-style: italic;
     color: #333333;
 }
 .i {
-    line-height: 14px;
+
     text-decoration: underline;
     color: #333333;
 }
@@ -62,32 +61,27 @@ h1 {
     color: #333333;
 }
 .k {
-    font-size: 14px;
-    line-height: 14px;
+
     text-decoration: line-through;
     color: #333333;
 }
 .l {
     font-family: TimesNewPSMT;
-    font-size: 14px;
-    line-height: 14px;
+
     color: #333333;
 }
 .m {
     text-shadow: 0 1px 1px #000;
-    font-size: 14px;
-    line-height: 14px;
+
 }
 .h1 {
-    font-size: 14px;
-    line-height: 14px;
+
     color: #333333;
     text-align: center;
 
 }
 .f1 {
-    font-size: 14px;
-    line-height: 14px;
+
     color: #333333;
     text-align: right;
 }
