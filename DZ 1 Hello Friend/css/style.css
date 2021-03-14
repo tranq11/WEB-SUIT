@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  ont-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 0%;
+  webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.head {
+  background-color: #445161;
+  padding: 20px;
+}
+.head__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -8px;
+}
+.head__row:nth-child(2) {
+  align-self: center;
+}
+.head__column {
+  padding: 0 8px;
+}
+.head__hi {
+  color: white;
+}
+.head__titel {
+  font-size: 59px;
+  margin-bottom: 4px;
+}
+.head__list {
+  font-size: 20px;
+  line-height: 36px;
+}
+.head__list li {
+  background: url(../img/check-icon.png) 0 10px no-repeat;
+  padding-left: 35px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.what {
+  padding: 50px;
+}
+.what__row {
+  display: flex;
+}
+.what__row:nth-child(1) {
+  flex: 0 0 430px;
+}
+.what__row:nth-child(2) {
+  flex: 1 1 auto;
+}
+.what__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+}
+.what__p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.what__p p {
+  margin-bottom: 20px;
+}
+.what__p:last-child {
+  margin-bottom: 0;
+}
+
+.flexcont {
+  background-color: #eaeae1;
+  padding: 30px 0 50px 0;
+  margin-bottom: 50px;
+}
+.flexcont__titleh1 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.flexcont__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8px;
+}
+.flexcont__column {
+  padding: 8px;
+  width: 580px;
+  display: flex;
+}
+.flexcont__image {
+  margin-right: 15px;
+}
+.flexcont__item {
+  height: 150px;
+}
+.flexcont__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #445161;
+}
+.flexcont__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  height: 110px;
+  overflow: auto;
+}
+
+.column {
+  margin-bottom: 30px;
+}
+.column__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.column__row {
+  display: flex;
+  justify-content: center;
+  margin: 0 -22.5px;
+}
+.column__column {
+  padding: 0 22.5px;
+  display: flex;
+}
+.column__body {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #445161;
+  border: 1px solid #445161;
+  color: #fff;
+  border-radius: 5px;
+}
+.column__h1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.column__h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 71px;
+  color: #445162;
+  background-color: #fff;
+}
+.column__text {
+  padding: 20px;
+  flex: 1 1 auto;
+}
+.column__text p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.column__text p:last-child {
+  margin-bottom: 0;
+}
+.column__btn {
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  color: #445161;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #999;
+}
+.footer__row {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  align-self: center;
+  color: #445162;
+  font-size: 12px;
+  line-height: 24px;
+}

@@ -74,6 +74,10 @@ a::after {
     height: 50px;
     line-height: 44;
     font-size: 36px;
-}.int input:focus {
+}
+.int input:focus {
     box-shadow: 0 0 20px 0 #7fbed5ee;
 }
+
+
+
