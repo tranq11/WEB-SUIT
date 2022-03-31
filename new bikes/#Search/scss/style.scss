@@ -1,0 +1,96 @@
+/*Обнуление*/*{padding:0;margin:0;border:0;}*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}:focus,:active{outline: none;}a:focus,a:active{outline: none;}nav,footer,header,aside{display: block;}html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 0%;--webkit-text-size-adjust: 100%;}input,button,textarea{font-family:inherit;}input::-ms-clear{display: none;}button{cursor: pointer;}button::-moz-focus-inner {padding:0;border:0;}a, a:visited{text-decoration: none;}a:hover{text-decoration: none;}ul li{list-style: none;}img{vertical-align: top;}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+}
+.main-creen {
+    height: 100%;
+}
+.main-bg {
+    height: 100%;
+    background: url(../img/bg/bg_2.png) center/cover no-repeat;
+}
+.new-bike {
+    background-color: #f7f7f7;
+    padding: 70px 0 70px 0;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.block {
+    text-align: center;
+		&__icon {
+            padding-bottom: 34px;
+        }
+		&__title {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #353738;
+            padding-bottom: 34px;
+        }
+		&__text {
+            font-size: 18px;
+            line-height: 34px;
+            font-weight: 400;
+            color: #848789;}
+}
+
+.oliva {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    &__bgb {
+        position: relative;
+        grid-column: 1/3;
+        grid-row: 1/4;
+        background: url(../img/bg/rectangle_1_54.png) center/cover no-repeat;
+    }
+    &__logo {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    &__block {
+        padding: 70px 70px 100px;
+        grid-column: 3/4;
+        grid-row: 1/3;
+        
+        &:last-child{
+            display: block;
+            height: 1px;
+            width: 50px;
+            display: block;
+            background-color: rgba(53,55,56,0.2);
+        }
+        
+    }
+    &__bgs {
+
+        grid-column: 3/4;
+        grid-row: 3/4;
+        background: url(../img/bg/rectangle_1_copy_2_56.png) center/cover no-repeat;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;width: 0;height: 0;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+            border-top: 10px solid #fff;
+        }
+    }
+}
+.block {
+    &__icon {}
+    &__title {}
+    &__text {}
+}
+
+
